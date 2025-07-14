@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Blog Summariser</title>
+  <link rel="stylesheet" href="style0.css" />
+  <script src="script0.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>📝 Blog Summariser</h1>
+    <p class="tagline">Paste any blog or article below — get a clean summary instantly!</p>
+
+    <label for="blogInput">🔽 Paste Blog Content:</label>
+    <textarea id="blogInput" placeholder="Paste full blog text here..."></textarea>
+
+    <button type="button" onclick="summariseText()">Summarise</button>
+
+    <label for="output">📄 Summary Output:</label>
+    <textarea id="output" readonly></textarea>
+
+    <div class="feedback-section">
+      <h3>💬 Share Your Feedback or Suggestions</h3>
+      <textarea id="feedback" placeholder="What did you think of the summary? Suggestions?"></textarea>
+      <button type="button" onclick="submitFeedback()">Submit Feedback</button>
+    </div>
+  </div>
+
+  <!-- ✅ Always keep script at the end -->
+</body>
+</html>
